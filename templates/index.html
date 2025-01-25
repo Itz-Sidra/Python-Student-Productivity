@@ -15,9 +15,15 @@
                 <p class="lead">Retrive the best summary for the text </p>
             </div>
         </div>
-        <form action="/analyze" method="POST">
-            <textarea name = "rawtext" class="from-control", rows="3", placeholder="Enter your raw text"></textarea>
-            <button class="btn btn-primary submitbtn" type="submit">Submit </button>
+        
+        <form action="/analyze" method="POST" enctype="multipart/form-data">
+            <div class="input-section">
+                <h2>Input Text or Upload File</h2>
+                <textarea name="rawtext" class="form-control" rows="5" placeholder="Enter your text here"></textarea>
+                <p class="separator">OR</p>
+                <input type="file" name="uploaded_file" accept=".txt,.pdf,.docx" class="file-input">
+                <button class="btn-submit" type="submit">Summarize</button>
+            </div>
         </form>
     </div>
 
