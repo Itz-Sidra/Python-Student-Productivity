@@ -1,5 +1,12 @@
-.jumbotron{
-    background-color: orange;
+body {
+    background-color: #FBF9F1;
+    font-family: 'Arial', sans-serif;
+}
+
+.jumbotron {
+    background-color: #92C7CF;
+    color: #FBF9F1;
+    border-radius: 15px;
 }
 
 .from-control{
@@ -7,51 +14,89 @@
     height:auto;
 }
 
-.original_title{
-    background-color: orangered;
-    font-size:20px;
+.original_title {
+    background-color: #E5E1DA;
+    color: black;
+    font-size: 22px;
     font-weight: bold;
-    padding: 2px;
-    display:flex;
-    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
-.summary_title{
-    background-color: greenyellow;
-    font-size:20px;
+.summary_title {
+    background-color: #ede8ca;
+    color: black;
+    font-size: 22px;
     font-weight: bold;
-    padding: 2px;
-    display:flex;
-    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
-.srt{
-    display:flex;
+.srt {
+    display: flex;
     flex-direction: row;
+    gap: 15px;
+    margin-top: 20px;
 }
 
-.originalTxt{
-    background-color:orangered;
-    padding:20px;
+.originalTxt {
+    background-color: #E5E1DA;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    font-size: 16px;
+    overflow-y: auto;
 }
 
-.summaryTxt{
-    background-color:greenyellow;
-    padding:20px;
-    margin-left:10px;
+.summaryTxt {
+    background-color: #ede8ca;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    font-size: 16px;
+    overflow-y: auto;
 }
 
-.heading{
+.heading {
     font-weight: bold;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
-.lead{
-    display: flex;
-    justify-content: center;
+.lead {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.submitbtn{
-    margin-top:10px; 
+
+.submitbtn {
+    margin-top: 15px;
+    background-color: #92C7CF;
+    color: #FBF9F1;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.submitbtn:hover {
+    background-color: #AAD7D9;
+    color: #FBF9F1;
+}
+
+
+textarea {
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    border: 1px solid #AAD7D9;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #E5E1DA;
 }
