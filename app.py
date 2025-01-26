@@ -61,4 +61,4 @@ def extract_text_from_docx(filepath):
     return "\n".join([para.text for para in doc.paragraphs])
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)
