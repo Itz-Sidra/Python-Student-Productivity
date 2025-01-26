@@ -18,3 +18,5 @@ A simple and user-friendly web application to summarize large chunks of text or 
 - Incorporate NLP models for better summarization.
 - Add language support for non-English texts.
 
+## Live Demo:
+<a href="https://text-summarizer-68hi.onrender.com">Text-Summarizer</a>
